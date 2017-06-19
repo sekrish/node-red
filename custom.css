@@ -1,0 +1,159 @@
+html {
+    background-color: floralwhite; 
+}
+
+
+
+
+#chart.ui-droppable.node.nodegroup.node_icon_group.node_label svg rect
+{
+    fill: initial;
+    outline-color: white;
+    color: darkorange;
+}
+
+svg path {
+    fill: inherit;
+}
+
+
+svg text{
+    color: darkorange;
+    fill-opacity:0.8;
+
+}
+svg link_background{
+  fill: darkorange;
+    background-color: darkorange;
+  color: darkorange;
+}
+.ui-droppable
+{
+     background-color: black;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: #000000;       
+    }
+
+#palette-container{
+        background-color: #000000; 
+}
+
+.palette-content{
+   background-color: black; 
+}
+
+#sidebar-content{
+    background-color: black; 
+}
+
+.sidebar-node-info{
+    outline-color: white;
+    color: darkorange;
+    background-color: #000000;
+}
+
+.node-info-tip hide
+{
+    outline-color: white;
+    background-color: #000000;
+    color: floralwhite;
+}
+.palette-header{
+   color: darkorange;
+   background-color: #000000; 
+   border-color: floralwhite;
+}
+
+.palette-editor-tab{
+    background-color: #000000;
+}
+
+.palette-search{
+   color: floralwhite;
+   background-color: #000000; 
+   border-color: floralwhite;
+   
+}
+.link_background
+{
+    background-color: darkorange; 
+    color: floralwhite;
+}
+
+#workspace-tabs
+{
+     background-color: black; 
+}
+
+#palette-search{
+    
+   background-color: black; 
+   border-color: floralwhite;
+   color: floralwhite; 
+}
+
+#red-ui-tab
+{
+    background-color: black; 
+    color: darkorange; 
+    border-color: floralwhite;
+}
+
+.red-ui-tab-label
+{
+    
+    color: darkorange; 
+    background-color: black; 
+}
+#red-ui-tabs-scroll-container
+{
+  background-color: darkorange;    
+}
+
+.link_background{
+    background-color: darkorange;   
+}
+
+#node
+{
+    background-color: floralwhite; 
+    color: darkorange;
+}
+
+.node-info-tip{
+    background-color: black; 
+    color: darkorange; 
+}
+
+#node-info{
+    color: darkorange;
+}
+
+.link-line
+{
+     background-color: darkorange;   
+     color: darkorange;
+}
+
+.link-path  
+{
+     background-color: darkorange;   
+     color: darkorange;
+}
+
+.link-line link-path
+{
+     background-color: darkorange;   
+     color: darkorange;
+}
+.bidiAware{
+    color: darkorange;
+}
+
+.logo
+{
+    color: darkorange;
+    font-weight: 300;
+    font-size: 200;
+}

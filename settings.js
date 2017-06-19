@@ -204,5 +204,37 @@ module.exports = {
             // Whether or not to include audit events in the log output
             audit: false
         }
-    }
+    },
+     editorTheme: {
+        page: {
+            title: "Bloomberg Messaging Self Service",
+            favicon: "C:/Users/Owner/Documents/GitHub/node-red/editor/images/node-red.ico",
+            css: "C:/Users/Owner/Documents/GitHub/node-red/custom.css"
+            //css: "C:\Users\Owner\Desktop\myfolder\code\node-red-master\custom.css",
+            //scripts: "/absolute/pafile:///C:/Path/To/Script/Script.jsth/to/custom/js/file"  // As of 0.17
+        },
+        header: {
+            title: "Bloomberg Messaging Self Service Portal",
+            image: "C:/Users/Owner/Documents/GitHub/node-red/editor/images/node-red.ico", // or null to remove image
+            url: "http://nodered.org" // optional url to make the header text/image a link to this url
+        },
+        deployButton: {
+            type:"simple",
+            label:"Save Flow or Subflow",
+            icon: "C:\Users\Owner\Desktop\myfolder\code\node-red-master\Installer.ico" // or null to remove image
+        },
+        menu: { // Hide unwanted menu items by id. see editor/js/main.js:loadEditor for complete list
+            "menu-item-import-library": false,
+            "menu-item-export-library": false,
+            "menu-item-keyboard-shortcuts": false,
+            "menu-item-help": {
+                label: "Alternative Help Link Text",
+                url: "http://example.com"
+            }
+        },
+        userMenu: false, // Hide the user-menu even if adminAuth is enabled
+        login: {
+            //image: "/absolute/path/to/login/page/big/image" // a 256x256 image
+        }
+    },
 }
