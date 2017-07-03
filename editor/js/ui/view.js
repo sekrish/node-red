@@ -200,7 +200,7 @@ RED.view = (function() {
     var outer_background = vis.append("svg:rect")
         .attr("width", space_width)
         .attr("height", space_height)
-        .attr("fill","#f5e66e"); //was #fff
+        .attr("fill","#000"); //was #fff
 
     var gridScale = d3.scale.linear().range([0,space_width]).domain([0,space_width]);
     var grid = vis.append("g");
